@@ -82,30 +82,32 @@ button{
 }
 .footer{
     display: flex;
-    justify-content:flex-end;
+    justify-content:space-between;
     align-items: center;
     gap: 1%;
     margin-right: 2%;
     margin-top: 2%;
 }
 
-.SpaceCowboy{
+.contactMe{
     font-family: 'CowboyBebop';
     color: whitesmoke;
     font-size: larger;
     font-style: italic;
     text-decoration-line: underline;
     text-decoration-color:#f9744b;
+    margin-left: 3%;
 }
 
 .socailsContainer{
-    background-color: white;
-    width: 10%;
-    display: flex;
-    align-items: center;
+    width: 100%;
+}
+
+.socailsList{
+    float: right;
 }
 
 .socialImages{
-    height: 10dvh;
-    width: 10dvh;
+    height: 60px;
+    width: 60px;
 }
