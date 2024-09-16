@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'CowboyBebop';
+    src: url('Cheltenham Condensed Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: #102937;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.name{
+    color: whitesmoke;
+    font-family: 'CowboyBebop';
+    margin-left: 15%;
+    font-style: italic;
+    white-space: nowrap;
+    text-decoration-line: underline;
+    text-decoration-color:#f9744b;
+}
+
+.navContainer{
+    float: right;
+}
+.navList{
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    margin-right: 100px;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'CowboyBebop';
+    text-decoration-line: underline;
+    text-decoration-color:#f9744b;
+}
+
+.navLink{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.mainContent{
+    display: flex;
+    align-items: center;
+    background-color: #124d54;
+    height: 60dvh;
+}
+
+.introduction{
+    width: auto;
+    height: auto;  
+    padding-left: 5%; 
+}
+
+.mainLine{
+    color: whitesmoke;
+    font-size: 200%;
+    font-family: 'CowboyBebop';
+}
+
+.buttonHolder{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 10%;
+}
+
+button{
+    background-color:#f9744b;
+    color: whitesmoke;
+    height: 7dvh;
+    width: 20dvh;
+    font-size: large;
+    font-family:'CowboyBebop';
+}
+.footer{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    gap: 1%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+.SpaceCowboy{
+    font-family: 'CowboyBebop';
+    color: whitesmoke;
+    font-size: larger;
+    font-style: italic;
+    text-decoration-line: underline;
+    text-decoration-color:#f9744b;
+}
+
+.socailsContainer{
+    background-color: white;
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.socialImages{
+    height: 10dvh;
+    width: 10dvh;
+}
