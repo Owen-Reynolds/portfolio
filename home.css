@@ -1,70 +1,47 @@
-@font-face {
-    font-family: 'CowboyBebop';
-    src: url('Cheltenham Condensed Bold.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+body{
+    background-color: rgb(15, 23, 42);
 }
 
-body{
-    background-color: #102937;
-}
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
-    box-sizing: border-box;
+
 }
 
-.name{
-    color: whitesmoke;
-    font-family: 'CowboyBebop';
-    margin-left: 15%;
-    font-style: italic;
-    white-space: nowrap;
-    text-decoration-line: underline;
-    text-decoration-color:#f9744b;
-}
-
-.navContainer{
-    float: right;
-}
 .navList{
     display: flex;
     align-items: center;
     gap: 20%;
-    margin-right: 100px;
     list-style-type: none;
     text-decoration: none;
-    font-family: 'CowboyBebop';
-    text-decoration-line: underline;
-    text-decoration-color:#f9744b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
 }
 
 .navLink{
     text-decoration: none;
-    color: whitesmoke;
-}
-
-.mainContent{
-    display: flex;
-    align-items: center;
-    background-color: #124d54;
-    height: 60dvh;
+    color:#e2e8f0;
 }
 
 .introduction{
-    width: auto;
-    height: auto;  
-    padding-left: 5%; 
+    width: 30%;
+    height: auto;
+    margin-left: 5%;
 }
 
 .mainLine{
-    color: whitesmoke;
-    font-size: 200%;
-    font-family: 'CowboyBebop';
+    color:#e2e8f0;
+    font-size: 400%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.firstParagraph{
+    color:#e2e8f0;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+}
 .buttonHolder{
     display: flex;
     align-items: baseline;
@@ -74,11 +51,11 @@ header{
 
 button{
     background-color:#f9744b;
-    color: whitesmoke;
+    color:#e2e8f0;
     height: 7dvh;
     width: 20dvh;
     font-size: large;
-    font-family:'CowboyBebop';
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .footer{
     display: flex;
@@ -90,8 +67,8 @@ button{
 }
 
 .contactMe{
-    font-family: 'CowboyBebop';
-    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#e2e8f0;
     font-size: larger;
     font-style: italic;
     text-decoration-line: underline;
@@ -99,15 +76,3 @@ button{
     margin-left: 3%;
 }
 
-.socailsContainer{
-    width: 100%;
-}
-
-.socailsList{
-    float: right;
-}
-
-.socialImages{
-    height: 60px;
-    width: 60px;
-}
