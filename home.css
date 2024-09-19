@@ -55,12 +55,15 @@ button{
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.pictureContainer{
+
+}
+
 .footer{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    gap: 1%;
-    margin-right: 2%;
     margin-top: 2%;
     width: 100%;
     background-color: #f9744b;
@@ -76,3 +79,16 @@ button{
     margin-left: 3%;
 }
 
+.socailsList{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    color:#e2e8f0;
+    text-decoration-color:rgb(15, 23, 42) ;
+    list-style: none;
+    margin-right: 3%; 
+}
+
+.socailsList li{
+    margin-right: 40px;
+}
