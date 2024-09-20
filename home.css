@@ -27,6 +27,7 @@ header{
 .mainContent{
     width: 100%;
     display: flex;
+    max-width: 1200px;
 }
 .introduction{
     width: 40%;
@@ -62,7 +63,6 @@ button{
 .pictureContainer{
     background-color: #e2e8f0;
     width:auto;
-    height: 20dvh;
     margin-left:10%;
     margin-top:10%;
 }
