@@ -18,7 +18,7 @@ header{
 .navList{
     display: flex;
     align-items: center;
-    gap: 20%;
+    gap: 40px;
     list-style-type: none;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -29,6 +29,11 @@ header{
     text-decoration: none;
     color:#e2e8f0;
 }
+
+.navLink:hover{
+    color: #f9744b;
+}
+
 .mainContent{
     flex: 1;
     width: 100%;
@@ -41,7 +46,7 @@ header{
 .introduction{
     flex-grow: 1;
     min-width: 40%;
-    max-width: 60%;
+    max-width: 50%;
     height: auto;
     margin-left: 5%;
 }
@@ -71,6 +76,12 @@ button{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+button:hover{
+    cursor: pointer;
+    background-color: #e2e8f0;
+    color: #f9744b;
+}
+
 .pictureContainer{
     background-color: #e2e8f0;
     min-width: auto;
@@ -86,6 +97,7 @@ button{
     position: relative;
     width: 100%;
     background-color: #f9744b;
+    margin-top: 5%;
 }
 
 .contactMe{
