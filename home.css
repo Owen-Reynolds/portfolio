@@ -75,19 +75,14 @@ header{
 }
 
 .parentBar{
-    margin-top: 5%;
-    width: 100%;
+    margin: auto;
+    width: 90%;
     height: 20vw;
-    display: flex;
     background-color: #008DD5;
+    display: flex;
+    
 }
 
-.parentBarText{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    color: #ff6f21;
-}
 
 .contacts a img{
     width: 8vw;
