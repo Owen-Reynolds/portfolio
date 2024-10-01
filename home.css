@@ -19,7 +19,7 @@ header{
 .navList{
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 20%;
     list-style-type: none;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -36,7 +36,6 @@ header{
 }
 
 .mainContent{
-    flex: 1;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -45,7 +44,6 @@ header{
 }
 
 .introduction{
-    flex-grow: 1;
     min-width: 40%;
     max-width: 50%;
     height: auto;
@@ -54,12 +52,12 @@ header{
 
 .mainLine{
     color:#ff6f21;
-    font-size: 400%;
+    font-size: 500%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .firstParagraph{
     color:#008DD5;
-    font-size: larger;
+    font-size: 200%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
@@ -92,36 +90,3 @@ header{
     height: auto;
 }
 
-.footer{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    position: relative;
-    width: 100%;
-    background-color: #0f21bd;
-    margin-top: 5%;
-}
-
-.contactMe{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:#008DD5;
-    font-size: larger;
-    font-style: italic;
-    text-decoration-line: underline;
-    text-decoration-color:#DEF2F8;
-    margin-left: 3%;
-}
-
-.socailsList{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
-    text-decoration: underline;
-    color:#008DD5;
-    text-decoration-color:#DEF2F8;
-    list-style: none;
-    margin-right: 3%; 
-}
-
-.socailsList li{
-    margin-right: 40px;
-}
