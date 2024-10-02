@@ -40,30 +40,28 @@ header{
 }
 
 .mainContent{
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
-    max-width: auto;
-    margin: 0;
+    margin: auto;
 }
 
 .introduction{
     min-width: 30%;
-    max-width: 40%;
+    max-width: 50%;
     height: auto;
-    margin-left: 5%;
 }
 
 .mainLine{
     color:#ff6f21;
-    font-size: 500%;
+    font-size: 400%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .firstParagraph{
     color:#008DD5;
-    font-size: 200%;
+    font-size: 150%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    height: 50dvh;
 }
 
 .pictureContainer{
@@ -81,20 +79,24 @@ header{
     height: 20vw;
     background-color: #008DD5;
     display: flex;
-    
 }
 
 .contacts{
     width: 60%;
-    background-color: white;
+    background-color: #008DD5;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .wheretoFineMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #ff6f21;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1000%;
+    font-size: 500%;
+    width: 40%;
 }
 
 .contacts a img{
