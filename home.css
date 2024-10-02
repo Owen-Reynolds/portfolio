@@ -54,14 +54,13 @@ header{
 
 .mainLine{
     color:#ff6f21;
-    font-size: 400%;
+    font-size: 5vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .firstParagraph{
     color:#008DD5;
-    font-size: 150%;
+    font-size: 1.5vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 50dvh;
 }
 
 .pictureContainer{
