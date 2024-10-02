@@ -77,13 +77,12 @@ header{
     width: 90%;
     margin-top: 2%;
     height: 20vw;
-    background-color: #008DD5;
+    background-color: #DEF2F8;
     display: flex;
 }
 
 .contacts{
     width: 60%;
-    background-color: #008DD5;
     display: flex;
     justify-content: space-around;
     align-items: center;
