@@ -40,6 +40,34 @@ html, body{
     margin-top:10%;
 }
 
+.skills{
+    width: 90%;
+    margin: auto;
+}
+
+.skillsText{
+    display: flex;
+    justify-content: center;
+
+}
+
+.skillsText h1{
+    color: #ff6f21;
+    font-size: 5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.skillsContainerTop, .skillsContainerBottom{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
+
+.skillsContainerTop a img, .skillsContainerBottom a img{
+    width: 16vw;
+    height: auto;
+}
+
 .parentBar{
     margin: auto;
     width: 90%;
