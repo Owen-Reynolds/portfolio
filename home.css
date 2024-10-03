@@ -8,7 +8,7 @@ html, body{
 }
 
 .mainContent{
-    width: 90%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -16,7 +16,7 @@ html, body{
 
 .introduction{
     min-width: 30%;
-    max-width: 50%;
+    max-width: 60%;
     height: auto;
 }
 
@@ -41,7 +41,7 @@ html, body{
 }
 
 .skills{
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 
@@ -70,7 +70,7 @@ html, body{
 
 .parentBar{
     margin: auto;
-    width: 90%;
+    width: 80%;
     margin-top: 2%;
     height: 20vw;
     background-color: #DEF2F8;
