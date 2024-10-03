@@ -7,40 +7,8 @@ html, body{
     overflow-x: hidden;
 }
 
-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.navContainer{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.navList{
-    display: flex;
-    align-items: center;
-    gap: 20%;
-    list-style-type: none;
-    text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: x-large;
-}
-
-.navLink{
-    text-decoration: none;
-    color:#008DD5;
-}
-
-.navLink:hover{
-    color: #ff6f21;
-}
-
 .mainContent{
-    width: 90%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -48,20 +16,20 @@ header{
 
 .introduction{
     min-width: 30%;
-    max-width: 50%;
+    max-width: 60%;
     height: auto;
 }
 
 .mainLine{
     color:#ff6f21;
-    font-size: 400%;
+    font-size: 5vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .firstParagraph{
     color:#008DD5;
-    font-size: 150%;
+    font-size: 1.5vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 50dvh;
 }
 
 .pictureContainer{
@@ -72,9 +40,37 @@ header{
     margin-top:10%;
 }
 
+.skills{
+    width: 80%;
+    margin: auto;
+}
+
+.skillsText{
+    display: flex;
+    justify-content: center;
+
+}
+
+.skillsText h1{
+    color: #ff6f21;
+    font-size: 5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.skillsContainerTop, .skillsContainerBottom{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
+
+.skillsContainerTop a img, .skillsContainerBottom a img{
+    width: 16vw;
+    height: auto;
+}
+
 .parentBar{
     margin: auto;
-    width: 90%;
+    width: 80%;
     margin-top: 2%;
     height: 20vw;
     background-color: #DEF2F8;
