@@ -55,14 +55,7 @@ html, body{
     justify-content: flex-end;
 }
 
-.skillsHolder div h1{
-    color: #ff6f21;
-    font-size: 8vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
-}
-
-.skillsHolder div a{
+.skillsHolder div a h1{
     color: #ff6f21;
     font-size: 8vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
