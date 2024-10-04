@@ -16,7 +16,7 @@ html, body{
 
 .introduction{
     min-width: 30%;
-    max-width: 60%;
+    max-width: 50%;
     height: auto;
 }
 
@@ -29,6 +29,7 @@ html, body{
 .firstParagraph{
     color:#008DD5;
     font-size: 1.5vw;
+    line-height: 2vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -45,26 +46,29 @@ html, body{
     margin: auto;
 }
 
-.skillsText{
-    display: flex;
-    justify-content: center;
+.skillsHolder{
+    
 }
 
-.skillsText h1{
+.skillsHolder div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.skillsHolder div h1{
     color: #ff6f21;
-    font-size: 5vw;
+    font-size: 8vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
 }
 
-.skillsContainerTop, .skillsContainerBottom{
-    display: flex;
-    justify-content: center;
-    gap: 10%;
-}
-
-.skillsContainerTop a img, .skillsContainerBottom a img{
-    width: 200px;
-    height: 230px;
+.skillsHolder div a{
+    color: #ff6f21;
+    font-size: 8vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    text-decoration: none;
+    width: 100%;
 }
 
 .parentBar{
