@@ -63,8 +63,8 @@ html, body{
 }
 
 .skillsContainerTop a img, .skillsContainerBottom a img{
-    width: 16vw;
-    height: auto;
+    width: 200px;
+    height: 230px;
 }
 
 .parentBar{
