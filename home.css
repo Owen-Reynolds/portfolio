@@ -48,7 +48,6 @@ html, body{
 .skillsText{
     display: flex;
     justify-content: center;
-
 }
 
 .skillsText h1{
@@ -60,7 +59,7 @@ html, body{
 .skillsContainerTop, .skillsContainerBottom{
     display: flex;
     justify-content: center;
-    gap: 1%;
+    gap: 10%;
 }
 
 .skillsContainerTop a img, .skillsContainerBottom a img{
