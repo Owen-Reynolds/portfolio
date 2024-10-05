@@ -83,7 +83,6 @@ header{
 .skillsHolder div{
     display: flex;
     justify-content: flex-end;
-
 }
 
 .skillsHolder div a{
@@ -107,20 +106,12 @@ header{
     width: 100%;
 }
 
-.parentBar{
-    margin: auto;
-    width: 80%;
-    margin-top: 2%;
-    height: 20vw;
-    background-color: #DEF2F8;
-    display: flex;
-}
-
 .contacts{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10%;
     gap: 10vw;
 }
 
