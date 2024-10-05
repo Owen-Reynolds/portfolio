@@ -7,6 +7,35 @@ html, body{
     overflow-x: hidden;
 }
 
+header{
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    margin: auto;
+}
+
+.resumeButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    width: 12vw;
+    height: 4vw;
+    border-radius: 10%;
+    border: 3px solid #ff6f21;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-shadow: 2px 2px 3px #008DD5;
+    font-size: 2vw;
+    color: #ff6f21;
+    background-color: #DEF2F8;
+}
+
+.resumeButton:hover{
+    color: white;
+    background-color:#ff6f21;
+}
+
 .mainContent{
     width: 80%;
     display: flex;
@@ -21,6 +50,7 @@ html, body{
 }
 
 .mainLine{
+    margin: 0;
     color:#ff6f21;
     font-size: 5vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
