@@ -117,20 +117,11 @@ header{
 }
 
 .contacts{
-    width: 60%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.wheretoFineMe{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #ff6f21;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 500%;
-    width: 40%;
+    gap: 10vw;
 }
 
 .contacts a img{
