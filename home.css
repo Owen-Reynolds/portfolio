@@ -53,6 +53,19 @@ html, body{
 .skillsHolder div{
     display: flex;
     justify-content: flex-end;
+
+}
+
+.skillsHolder div a{
+    text-decoration: none;
+}
+
+.skillsHolder div a:hover{
+    background-color: #ff6f21;
+}
+
+.skillsHolder div a h1:hover{
+    color: white;
 }
 
 .skillsHolder div a h1{
