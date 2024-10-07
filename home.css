@@ -9,9 +9,19 @@ html, body{
 
 header{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     width: 80%;
     margin: auto;
+}
+
+.homeButton{
+    display: flex;
+    align-items: center;
+}
+
+.homeButton img{
+    width: 3vw;
+    height: auto;
 }
 
 .resumeButton{
