@@ -1,16 +1,15 @@
-html, body{
+body{
     background-color: #DEF2F8;
-    margin: 0;
     padding: 0;
     min-height: 100dvh;
-    width:100%;
+    width:70%;
+    margin: auto;
     overflow-x: hidden;
 }
 
 header{
     display: flex;
     justify-content: space-between;
-    width: 80%;
     margin: auto;
 }
 
@@ -35,7 +34,6 @@ header{
     border: 3px solid #ff6f21;
     font-family: sans-serif;
     text-decoration: none;
-    text-shadow: 2px 2px 3px #008DD5;
     font-size: 2vw;
     color: #ff6f21;
     background-color: #DEF2F8;
@@ -47,10 +45,9 @@ header{
 }
 
 .mainContent{
-    width: 80%;
     display: flex;
     flex-direction: column;
-    margin: auto;
+    width: 100%;
 }
 
 .title{
@@ -58,8 +55,6 @@ header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ff6f21;
     font-size: 5vw;
-    width: 80%;
-    margin: auto;
 }
 
 .title h1{
@@ -68,7 +63,7 @@ header{
 
 .container{
     background-color: white;
-    width: 60%;
+    width: 100%;
     height: 30vw;
     margin: auto;
     border-radius: 10%;
