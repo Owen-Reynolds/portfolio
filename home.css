@@ -79,51 +79,32 @@ header{
     margin-top: 5%;    
 }
 
-.skills{
-    margin: auto;
-}
-
-.skillsHolder{
-    
-}
-
-.skillsHolder div{
-    display: flex;
-    justify-content: flex-end;
-}
-
-.skillsHolder div a{
-    text-decoration: none;
-}
-
-.skillsHolder div a:hover{
-    background-color: #ff6f21;
-}
-
-.skillsHolder div a h1:hover{
-    color: white;
-}
-
-.skillsHolder div a h1{
-    color: #ff6f21;
-    font-size: 8vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
-    text-decoration: none;
-    width: 100%;
-}
-
-.contacts{
-    width: 100%;
+#projectsHeader{
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 10%;
-    gap: 10vw;
+    width: 100%;
 }
 
-.contacts a img{
-    width: 8vw;
-    height: auto;
+#projectsHeader h1{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ff6f21;
+    font-size: 5vw;
 }
 
+.projectsRow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.projectsRow div{
+    width: 20vw;
+    height: 30vw;
+    background-color: black;
+}
+
+.projectsRow div img{
+    height: 40%;
+    width: 100%;
+
+}
