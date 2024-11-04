@@ -100,11 +100,26 @@ header{
 .projectsRow div{
     width: 20vw;
     height: 30vw;
-    background-color: black;
+    background-color: white;
 }
 
-.projectsRow div img{
-    height: 40%;
+#project img{
+    height: 55%;
     width: 100%;
 
+}
+
+#project h1{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#project p{
+    margin: auto;
+    width: 90%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1vw;
+    text-align: center;
+    
 }
