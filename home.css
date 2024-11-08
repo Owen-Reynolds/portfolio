@@ -9,39 +9,24 @@ body{
 
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: auto;
 }
 
-.homeButton{
+.headerContent{
+    width: 60%;
     display: flex;
-    align-items: center;
+    justify-content: space-around;
+    margin: 1vw;
 }
 
-.homeButton img{
-    width: 3vw;
-    height: auto;
-}
-
-.resumeButton{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2%;
-    width: 12vw;
-    height: 4vw;
-    border-radius: 10%;
-    border: 3px solid #ff6f21;
-    font-family: sans-serif;
+.headerContent a{
     text-decoration: none;
-    font-size: 2vw;
     color: #ff6f21;
-    background-color: #DEF2F8;
-}
-
-.resumeButton:hover{
-    color: white;
-    background-color:#ff6f21;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5vw;
+    text-shadow: #008DD5 1px 1px;
+    cursor: pointer;
 }
 
 .mainContent{
@@ -61,6 +46,7 @@ header{
     color:#ff6f21;
     font-size: 5vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: #008DD5 2px 2px;
 }
 
 .firstParagraph{
@@ -90,6 +76,7 @@ header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ff6f21;
     font-size: 5vw;
+    text-shadow: #008DD5 2px 2px;
 }
 
 .projectsRow{
@@ -122,4 +109,39 @@ header{
     font-size: 1vw;
     text-align: center;
     
+}
+
+#aboutHeader{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#aboutHeader h1{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ff6f21;
+    font-size: 5vw;
+    text-shadow: #008DD5 2px 2px;
+}
+
+.resumeButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    width: 12vw;
+    height: 4vw;
+    border-radius: 10%;
+    border: 3px solid #ff6f21;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 2vw;
+    color: #ff6f21;
+    background-color: #DEF2F8;
+}
+
+.resumeButton:hover{
+    color: white;
+    background-color:#ff6f21;
 }

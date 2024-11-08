@@ -7,15 +7,16 @@
     <link rel="stylesheet" href="home.css">
 </head>
 <body>
+    <script src="home.js"></script>
     <header>
-            <a href="home.html" class="homeButton">
-                <img src="/images/1429747035.png" alt="">
-            </a>
-            <a href="" class="resumeButton">
-                RESUME
-            </a>
+        <div class="headerContent">
+            <a onclick="scrollHome()">Home</a>
+            <a onclick="scrollProjects()">Projects</a>
+            <a onclick="scrollAbout()">About</a>
+        </div>
     </header>
-   <section class="mainContent">
+    <br>
+   <section class="mainContent" id="home">
         <div class="introduction">
             <h1 class="mainLine">
                Owen Reynolds
@@ -30,7 +31,10 @@
             <img src="/images/IMG_0729.jpg" alt="">
         </div>
    </section>
-   <section class="projects">
+   <br>
+   <br>
+   <br>
+   <section class="projects" id="projects">
         <div id="projectsHeader">
             <h1>Projects</h1>
         </div>
@@ -40,7 +44,7 @@
             <div class="projectsRow">
                 <div id="project">
                     <img src="/images/handshake.jpg" alt="">
-                    <h1>Clothing Store</h1>
+                    <h1>Done Clothing</h1>
                     <p>Done Clothing orginated as a group project for a Web Programming Class.
                        I was the lead Programmer for the Project and was in charge of the Home Page, 
                        Hoodies Page, Individual Product Pages, the Cart Page, and all JavaScript.
@@ -65,10 +69,17 @@
    <br>
    <br>
    <br>
-   <section class="contactBar">
-        
+   <section class="contactBar" id="about">
+        <div id="aboutHeader">
+            <h1>About</h1>
+        </div>
+
+
+
+    <a href="" class="resumeButton">
+        RESUME
+    </a>
    </section>
     
-
 </body>
 </html>
