@@ -124,3 +124,55 @@ header{
     font-size: 5vw;
     text-shadow: #008DD5 2px 2px;
 }
+
+.mainAbout{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+}
+
+.aboutImage{
+    width: 40%;
+    background-color:pink;
+    
+}
+
+.aboutInfo{
+    width: 60%;
+    background-color: greenyellow;
+}
+
+.aboutBox{
+    height: 25%;
+    
+}
+
+#box1{
+    background-color: #008DD5;
+}
+
+#box2{
+    background-color: #ff6f21;
+}
+
+#box3{
+    background-color: beige;
+}
+
+#box4{
+    background-color: violet;
+}
+
+.leftBox{
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightBox{
+
+}
