@@ -58,11 +58,17 @@ header{
 
 .pictureContainer{
     margin: 0;
+    
 }
 
 .pictureContainer img{
     width: 25vw;
-    margin-top: 5%;    
+    margin-top: 5%;
+    box-shadow: #ff6f21 0px 0px 3px 3px;
+}
+
+.pictureContainer img:hover{
+    box-shadow: #008DD5 0px 0px 3px 3px;
 }
 
 #projectsHeader{
@@ -88,12 +94,17 @@ header{
     width: 20vw;
     height: 30vw;
     background-color: white;
+    box-shadow: #ff6f21 0px 0px 3px 3px;
+}
+
+.projectsRow div:hover{
+    box-shadow: #008DD5 0px 0px 3px 3px;
+    cursor: pointer;
 }
 
 #project img{
-    height: 55%;
     width: 100%;
-
+    height: 55%;
 }
 
 #project h1{
@@ -108,7 +119,6 @@ header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1vw;
     text-align: center;
-    
 }
 
 #aboutHeader{
@@ -125,44 +135,42 @@ header{
     text-shadow: #008DD5 2px 2px;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 .mainAbout{
     width: 100%;
     display: flex;
     flex-direction: row;
     height: 80vh;
+    box-shadow: #ff6f21 0px 0px 4px 4px;
 }
 
 .aboutImage{
     width: 40%;
-    background-color:pink;
-    
+    background-color:lightslategrey    
 }
 
 .aboutInfo{
     width: 60%;
-    background-color: greenyellow;
+
 }
 
 .aboutBox{
-    height: 25%;
-    
+    height: 25%;    
 }
 
-#box1{
-    background-color: #008DD5;
+#box1, #box2, #box3{
+    border-bottom: solid 2px #008DD5;
+    background-color: white;
 }
 
-#box2{
-    background-color: #ff6f21;
+#box1, #box2, #box3, #box4{
+    background-color: white;
+    border-left: solid 2px #008DD5;
 }
 
-#box3{
-    background-color: beige;
-}
-
-#box4{
-    background-color: violet;
-}
 
 .leftBox{
     width: 20%;
@@ -171,8 +179,15 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-right: 2px solid #008DD5;
+}
+
+.leftBox p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5vw;
+    color: #ff6f21;
 }
 
 .rightBox{
-
+    
 }
