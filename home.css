@@ -154,7 +154,6 @@ header{
 
 .aboutInfo{
     width: 60%;
-
 }
 
 .aboutBox{
@@ -166,28 +165,18 @@ header{
     background-color: white;
 }
 
-#box1, #box2, #box3, #box4{
-    background-color: white;
-    border-left: solid 2px #008DD5;
-}
-
-
-.leftBox{
-    width: 20%;
+.Box{
+    width: 100%;
     height: 100%;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-right: 2px solid #008DD5;
+    cursor: pointer;
 }
 
-.leftBox p{
+.Box p{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.5vw;
+    font-size: 3vw;
     color: #ff6f21;
-}
-
-.rightBox{
-    
 }
