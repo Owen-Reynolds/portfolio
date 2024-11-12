@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="home.css">
+    <script src="home.js"></script>
 </head>
 <body>
-    <script src="home.js"></script>
     <header>
         <div class="headerContent">
             <a onclick="scrollHome()">Home</a>
@@ -76,17 +76,19 @@
         <br>
         <br>
         <div class="mainAbout">
-            <div class="aboutImage">
-                <img src="" alt="">
-            </div>
             <!--Create button that goes over the current about box 
             and allows for a larger surface to display my work-->
             <div class="aboutInfo">
-                <div class="aboutBox" id="box1">
+                <div class="aboutBox" id="box1" onclick="showSkills()">
                     <div class="Box">
                         <p>Skills</p>
                     </div>
                 </div>
+                <!--Sliding skills Page-->
+                <div id="skillsTab">
+                    test
+                </div>
+
                 <div class="aboutBox" id="box2">
                     <div class="Box">
                         <p>Work</p>
@@ -103,8 +105,12 @@
                     </div>
                 </div>
             </div>
+            <div class="aboutImage">
+                <img src="" alt="">
+            </div>
         </div>
    </section>
+
     <br>
     <br>
     <br>

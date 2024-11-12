@@ -15,3 +15,7 @@ function scrollAbout(){
         behavior: "smooth"
     })
 }
+
+function showSkills(){
+    document.getElementById('skillsTab').style.display='flex';
+}
