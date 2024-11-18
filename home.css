@@ -147,11 +147,6 @@ header{
     box-shadow: #ff6f21 0px 0px 4px 4px;
 }
 
-.aboutImage{
-    width: 60%;
-    background-color:lightslategrey    
-}
-
 .aboutInfo{
     width: 40%;
 }
@@ -184,11 +179,36 @@ header{
 
 /* Sliding Skills Tab */
 
-#skillsTab{
+.aboutTab{
+    width: 60%;
+    background-color:lightslategrey;
+    position: relative;
+}
+
+.skillsTab{
     display: none;
-    background-color: #ff6f21;
-    width:  42%;
-    height: 60%;
-    position: absolute;
-    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.workTab{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+.hobbiesTab{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+}
+
+.contactTab{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: green;
 }
