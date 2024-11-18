@@ -21,31 +21,36 @@ function clearSkills(){
     document.getElementById('workTab').style.display = 'none';
     document.getElementById('hobbiesTab').style.display = 'none';
     document.getElementById('contactTab').style.display = 'none';
+    document.getElementById('box1').style.backgroundColor = 'white';
+    document.getElementById('box2').style.backgroundColor = 'white';
+    document.getElementById('box3').style.backgroundColor = 'white';
+    document.getElementById('box4').style.backgroundColor = 'white';
 }
 
 function showSkills(){
     clearSkills();
-
     document.getElementById('skillsTab').style.display = 'flex';
 
-    skillsBox = document.getElementById('box1');
-    skillsBox.
+    document.getElementById('box1').style.backgroundColor = '#D3D3D3';
 }
 
 function showWork(){
     clearSkills();
-
     document.getElementById('workTab').style.display = 'flex';
+
+    document.getElementById('box2').style.backgroundColor = '#D3D3D3';
 }
 
 function showHobbies(){
     clearSkills();
-
     document.getElementById('hobbiesTab').style.display = 'flex';
+
+    document.getElementById('box3').style.backgroundColor = '#D3D3D3';
 }
 
 function showContact(){
     clearSkills();
-
     document.getElementById('contactTab').style.display = 'flex'
+
+    document.getElementById('box4').style.backgroundColor = '#D3D3D3';
 }
