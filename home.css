@@ -210,13 +210,16 @@ header{
 .skillsTab div{
     width: 100%;
     height: 50%;
+    margin: 0;
 }
 
 .skillsTab div h1{
     display: flex;
     justify-content: center;
-     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-     color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+    font-size: 2vw;
+    margin: 0;
 }
 
 .skillWords{
@@ -227,16 +230,44 @@ header{
 .row1Skills{
     display: flex;
     justify-content: space-around;
+    font-size: 1.5vw;
+    color: #ff6f21;
 }
 
 .row2Skills{
     display: flex;
     justify-content: space-evenly;
+    font-size: 1.5vw;
+    color: #008DD5;
 }
 
 .row3Skills{
     display: flex;
     justify-content: space-around;
+    font-size: 1.5vw;
+    color: #ff6f21;
+}
+
+.hardSkillsHolder{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.javaHolder img{
+    height: 25vh;
+    object-fit: cover;
+}
+
+.htmlHolder{
+
+}
+
+.htmlHolder img{
+    width: 12vh;
+
 }
 
 .workTab{
