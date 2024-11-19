@@ -203,7 +203,6 @@ header{
     display: none;
     width: 100%;
     height: 100%;
-    background-color: #D3D3D3;
     flex-direction: column;
 }
 
@@ -250,31 +249,58 @@ header{
 
 .hardSkillsHolder{
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-
 .javaHolder img{
-    height: 25vh;
-    object-fit: cover;
-}
-
-.htmlHolder{
-
+    width: 22vh;
 }
 
 .htmlHolder img{
-    width: 12vh;
+    width: 20vh; 
+}
 
+.cssHolder img{
+    width: 11vw;
 }
 
 .workTab{
     display: none;
     width: 100%;
     height: 100%;
-    background-color: red;
+}
+
+.work{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.jobHeader, .jobSubHeader{
+    display: flex;
+    justify-content: center;
+}
+
+.mainJobHeader{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding-bottom: 5%;
+}
+
+.jobHeader{
+    font-size: 1.5vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
+
+.jobBullets{
+    margin-left: 10%;
 }
 
 .hobbiesTab{
