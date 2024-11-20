@@ -224,6 +224,7 @@ header{
 .skillWords{
     display: flex;
     flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .row1Skills{
@@ -251,20 +252,34 @@ header{
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: row;
     align-items: center;
+    padding-top: 2%;
+    padding-left: 3%;
 }
 
 .javaHolder img{
-    width: 22vh;
+    width: 125px;
+    height: 185px;
 }
 
 .htmlHolder img{
-    width: 20vh; 
+    width: 125px; 
+    height: 175px;
 }
 
 .cssHolder img{
-    width: 11vw;
+    width: 125px;
+    height: 175px;
+}
+
+.jsHolder img{
+    width: 125px;
+    height: 175px;
+}
+
+.sqlHolder img{
+    width: 125px;
+    height: 175px;
 }
 
 .workTab{
