@@ -1,4 +1,364 @@
 
 @media only screen and (max-width: 768px) {
+    body{
+        background-color: #DEF2F8;
+        padding: 0;
+        min-height: 100dvh;
+        width:100%;
+        margin: auto;
+        overflow-x: hidden;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .headerContent{
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10%;
+        gap: 15%;
+    }
+
+    .headerContent a{
+        text-decoration: none;
+        color: #ff6f21;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 5vw;
+        text-shadow: #008DD5 1px 1px;
+        cursor: pointer;
+    }
+
+    .mainContent{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin: auto;
+    }
+
+    .introduction{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 2%;
+    }
     
+    .mainLine{
+        margin: 0;
+        color:#ff6f21;
+        font-size: 9vw;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-shadow: #008DD5 1px 1px;
+        text-align: center;
+    }
+    
+    .firstParagraph{
+        color:#008DD5;
+        font-size: 3vw;
+        line-height: 4vw;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+    
+    .pictureContainer{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .pictureContainer img{
+        width: 90%;
+        margin-top: 5%;
+        box-shadow: #ff6f21 0px 0px 3px 3px;
+    }
+
+    .pictureContainer img:hover{
+        box-shadow: #008DD5 0px 0px 3px 3px;
+    }
+    
+    #projectsHeader{
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+    
+    #projectsHeader h1{
+        margin: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #ff6f21;
+        font-size: 12vw;
+        text-shadow: #008DD5 1px 1px;
+    }
+
+    .projectsRow{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .projectsRow div{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        background-color: white;
+        box-shadow: #ff6f21 0px 0px 3px 3px;
+        margin-bottom: 10%;
+    }
+    
+    .projectsRow div:hover{
+        box-shadow: #008DD5 0px 0px 3px 3px;
+        cursor: pointer;
+    }
+    
+    #project img{
+        width: 100%;
+        height: auto;
+    }
+
+    #project a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    #project h1{
+        display: flex;
+        justify-content: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0;
+    }
+    
+    #project p{
+        margin: auto;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        width: 90%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    #aboutHeader{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    
+    #aboutHeader h1{
+        margin: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #ff6f21;
+        font-size: 12vw;
+        text-shadow: #008DD5 1px 1px;
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+    
+    .mainAbout{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        box-shadow: #ff6f21 0px 0px 4px 4px;
+    }
+    
+    .aboutInfo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .aboutBox{
+        width: 100%;
+        height: auto; 
+        position: relative;
+    }
+    
+    #box1, #box2, #box3, #box4{
+        border-bottom: solid 2px #008DD5;
+    }
+    
+    #box1, #box2, #box3, #box4{
+        background-color: white;
+    }
+    
+    .Box{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        
+    }
+    
+    .Box p{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 3vw;
+        color: #ff6f21;
+    }
+
+     /* Sliding Skills Tab */
+    
+     .aboutTab{
+        width: 60%;
+        position: relative;
+    }
+    
+    .skillsTab{
+        display: none;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    
+    .skillsTab div{
+        width: 100%;
+        height: 50%;
+        margin: 0;
+    }
+    
+    .skillsTab div h1{
+        display: flex;
+        justify-content: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color:black;
+        font-size: 2vw;
+        margin: 0;
+    }
+    
+    .skillWords{
+        display: flex;
+        flex-direction: column;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .row1Skills{
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.5vw;
+        color: #ff6f21;
+    }
+    
+    .row2Skills{
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1.5vw;
+        color: #008DD5;
+    }
+    
+    .row3Skills{
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.5vw;
+        color: #ff6f21;
+    }
+    
+    .hardSkillsHolder{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding-top: 2%;
+        padding-left: 3%;
+    }
+    
+    .javaHolder img{
+        width: 125px;
+        height: 185px;
+    }
+    
+    .htmlHolder img{
+        width: 125px; 
+        height: 175px;
+    }
+    
+    .cssHolder img{
+        width: 125px;
+        height: 175px;
+    }
+    
+    .jsHolder img{
+        width: 125px;
+        height: 175px;
+    }
+    
+    .sqlHolder img{
+        width: 125px;
+        height: 175px;
+    }
+    
+    .workTab{
+        display: none;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .work{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .jobHeader, .jobSubHeader{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .mainJobHeader{
+        display: flex;
+        justify-content: center;
+        font-size: 2.5vw;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin: 0;
+        padding-bottom: 5%;
+        color: #008DD5;
+    }
+    
+    .jobHeader{
+        font-size: 1.5vw;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin: 0;
+        color: #ff6f21;
+    }
+    
+    .jobBullets{
+        margin-left: 3%;
+    }
+    
+    .jobBullets li{
+        font-size: 1vw;
+        margin: 2%;
+    }
+    
+    .hobbiesTab{
+        display: none;
+        width: 100%;
+        height: 100%;
+        background-color: blue;
+    }
+    
+    .resume{
+        display: flex;
+        justify-content: center;
+        padding-top: 5%;
+    }
+    
+    .resume a{
+        font-size: 1.5vw;
+        color: blue;
+    }
+    
+    .contactTab{
+        display: none;
+        width: 100%;
+        height: 100%;
+        background-color: green;
+    }
 }
