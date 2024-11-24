@@ -19,7 +19,7 @@ function scrollAbout(){
 function clearSkills(){
     document.getElementById('skillsTab').style.display = 'none';
     document.getElementById('workTab').style.display = 'none';
-    document.getElementById('hobbiesTab').style.display = 'none';
+    document.getElementById('goalsTab').style.display = 'none';
     document.getElementById('contactTab').style.display = 'none';
     document.getElementById('box1').style.backgroundColor = 'white';
     document.getElementById('box2').style.backgroundColor = 'white';
@@ -41,9 +41,9 @@ function showWork(){
     document.getElementById('box2').style.backgroundColor = '#D3D3D3';
 }
 
-function showHobbies(){
+function showGoals(){
     clearSkills();
-    document.getElementById('hobbiesTab').style.display = 'flex';
+    document.getElementById('goalsTab').style.display = 'flex';
 
     document.getElementById('box3').style.backgroundColor = '#D3D3D3';
 }

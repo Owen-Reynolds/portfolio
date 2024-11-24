@@ -222,8 +222,8 @@
         display: flex;
         justify-content: center;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color:black;
-        font-size: 2vw;
+        color:#008DD5;
+        font-size: 3vw;
         margin: 0;
     }
     
@@ -238,6 +238,7 @@
         justify-content: space-around;
         font-size: 1.5vw;
         color: #ff6f21;
+        font-family:Verdana, Geneva, Tahoma, sans-serif ;
     }
     
     .row2Skills{
@@ -245,6 +246,7 @@
         justify-content: space-evenly;
         font-size: 1.5vw;
         color: #008DD5;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     
     .row3Skills{
@@ -252,6 +254,7 @@
         justify-content: space-around;
         font-size: 1.5vw;
         color: #ff6f21;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     
     .hardSkillsHolder{
@@ -330,14 +333,7 @@
         font-size: 1vw;
         margin: 2%;
     }
-    
-    .hobbiesTab{
-        display: none;
-        width: 100%;
-        height: 100%;
-        
-    }
-    
+
     .resume{
         display: flex;
         justify-content: center;
@@ -348,6 +344,35 @@
         font-size: 1.5vw;
         color: blue;
     }
+    
+    .goalsTab{
+        display: none;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .goalsTab div{
+        width: 100%;
+    }
+
+    .goalsTab div h1{
+        display: flex;
+        justify-content: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color:#008DD5;
+        font-size: 3vw;
+        margin:0;
+    }
+
+        
+
+    .goalsTab div div h3{
+        color: #ff6f21;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1.5vw;
+    } 
+
     
     .contactTab{
         display: none;
