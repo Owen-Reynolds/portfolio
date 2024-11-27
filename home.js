@@ -27,6 +27,10 @@ function clearSkills(){
     document.getElementById('box4').style.backgroundColor = 'white';
 }
 
+window.onload = function(){
+    document.getElementById('box1').style.backgroundColor = '#D3D3D3';
+}
+
 function showSkills(){
     clearSkills();
     document.getElementById('skillsTab').style.display = 'flex';
