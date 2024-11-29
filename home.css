@@ -398,11 +398,26 @@
         display: none;
         width: 100%;
         height: 100%;
-        
+        display: flex;
+        flex-direction: column;
     }
 
     .contactsHeader{
-        
+        width: 100%;
+    }
+
+    .contactsHeader h1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color:#008DD5;
+        font-size: 3vw;
+        margin:0;   
+    }
+    .contactsContainer div img{
+        width: 100px;
+        height: auto;
     }
 }
 
