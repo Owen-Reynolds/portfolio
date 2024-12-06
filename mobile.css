@@ -7,7 +7,9 @@
         width:100%;
         margin: auto;
         overflow-x: hidden;
+        height: auto;
     }
+
     header{
         display: flex;
         justify-content: center;
@@ -15,7 +17,7 @@
     }
 
     .headerContent{
-        width: 60%;
+        width: 90%;
         display: flex;
         justify-content: space-around;
         margin-top: 10%;
@@ -129,6 +131,7 @@
         justify-content: center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         margin: 0;
+        font-size: 40px;
     }
     
     #project p{
@@ -207,12 +210,12 @@
      /* Sliding Skills Tab */
     
      .aboutTab{
-        width: 60%;
+        width: 100%;
         position: relative;
     }
     
     .skillsTab{
-        display: none;
+        display: flex;
         width: 100%;
         height: 100%;
         flex-direction: column;
@@ -220,7 +223,7 @@
     
     .skillsTab div{
         width: 100%;
-        height: 50%;
+        height: auto;
         margin: 0;
     }
     
@@ -229,8 +232,8 @@
         justify-content: center;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color:black;
-        font-size: 2vw;
-        margin: 0;
+        width: 70%;
+        margin: auto;
     }
     
     .skillWords{
@@ -242,21 +245,24 @@
     .row1Skills{
         display: flex;
         justify-content: space-around;
-        font-size: 1.5vw;
+        width: 100%;
+        font-size: 5vw;
         color: #ff6f21;
     }
     
     .row2Skills{
         display: flex;
         justify-content: space-evenly;
-        font-size: 1.5vw;
+        width: 100%;
+        font-size: 5vw;
         color: #008DD5;
     }
     
     .row3Skills{
         display: flex;
         justify-content: space-around;
-        font-size: 1.5vw;
+        width: 100%;
+        font-size: 5vw;
         color: #ff6f21;
     }
     
@@ -265,33 +271,34 @@
         height: 100%;
         display: flex;
         align-items: center;
-        padding-top: 2%;
+        margin: 0;
+        padding-top: 10%;
         padding-left: 3%;
     }
     
     .javaHolder img{
-        width: 125px;
-        height: 185px;
+        width: 75px;
+        height: 125px;
     }
     
     .htmlHolder img{
-        width: 125px; 
-        height: 175px;
+        width: 75px; 
+        height: 125px;
     }
     
     .cssHolder img{
-        width: 125px;
-        height: 175px;
+        width: 75px;
+        height: 125px;
     }
     
     .jsHolder img{
-        width: 125px;
-        height: 175px;
+        width: 75px;
+        height: 125px;
     }
     
     .sqlHolder img{
-        width: 125px;
-        height: 175px;
+        width: 75px;
+        height: 125px;
     }
     
     .workTab{
@@ -314,34 +321,23 @@
     .mainJobHeader{
         display: flex;
         justify-content: center;
-        font-size: 2.5vw;
+        width: 70%;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        margin: 0;
+        margin: auto;
         padding-bottom: 5%;
         color: #008DD5;
     }
     
     .jobHeader{
-        font-size: 1.5vw;
+        font-size: 4vw;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         margin: 0;
         color: #ff6f21;
     }
     
-    .jobBullets{
-        margin-left: 3%;
-    }
-    
     .jobBullets li{
-        font-size: 1vw;
+        font-size: 3vw;
         margin: 2%;
-    }
-    
-    .hobbiesTab{
-        display: none;
-        width: 100%;
-        height: 100%;
-        background-color: blue;
     }
     
     .resume{
@@ -351,14 +347,120 @@
     }
     
     .resume a{
-        font-size: 1.5vw;
+        font-size: 5vw;
         color: blue;
     }
+
+    .goalsTab{
+        display: none;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .goalsTab div{
+        width: 100%;
+    }
+
+    .goalsTab div h1{
+        display: flex;
+        justify-content: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color:#008DD5;
+        font-size: 7vw;
+        margin:0;
+    }
+
+    .goalsContainer{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .goalsContainer div{
+        text-align: center;   
+    }
+
+    .goalsContainer div h3{
+        margin: 2%;
+    }
+
+    .goalsContainer ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .goalsContainer ul li{
+        font-size: 4vw;
+        margin: 1%;
+    }
     
+    .goalsTab div div h3{
+        color: #ff6f21;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 5vw;
+    } 
+
     .contactTab{
         display: none;
         width: 100%;
         height: 100%;
-        background-color: green;
+        flex-direction: column;
     }
+
+    .contactsHeader{
+        width: 100%;
+    }
+
+    .contactsHeader h1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color:#008DD5;
+        font-size: 5vw;
+        margin:0;   
+    }
+
+    .contactsImage{
+        display: flex;
+        justify-content: center;
+        margin-top: 3%;
+    }
+
+    .contactsImage img{
+        width: 300px;
+    }
+
+    .directContacts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .directContact p, a{
+        color: #ff6f21;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 3vw;
+        margin: 0;
+        padding: .5vh;
+    }
+
+    .contactsContainer{
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+        padding-top: 2vh;
+    }
+ 
+    .contactsContainer div img{
+        width: 100px;
+        height: auto;
+    }
+    
 }
