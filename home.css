@@ -270,28 +270,30 @@
     }
     
     .javaHolder img{
-        width: 125px;
-        height: 185px;
+        width: 8vw;
+        height: 22vh;
+        margin-right: 1vw;
     }
     
     .htmlHolder img{
-        width: 125px; 
-        height: 175px;
+        width: 7vw; 
+        height: 22vh;
+        
     }
     
     .cssHolder img{
-        width: 125px;
-        height: 175px;
+        width: 7vw;
+        height: 22vh;
     }
     
     .jsHolder img{
-        width: 125px;
-        height: 175px;
+        width: 7vw;
+        height: 22vh;
     }
     
     .sqlHolder img{
-        width: 125px;
-        height: 175px;
+        width: 7vw;
+        height: 22vh;
     }
     
     .workTab{
@@ -340,7 +342,7 @@
     .resume{
         display: flex;
         justify-content: center;
-        padding-top: 5%;
+        padding-top: 3%;
     }
     
     .resume a{
@@ -429,7 +431,7 @@
     }
 
     .contactsImage img{
-        width: 300px;
+        width: 15vw;
     }
 
     .directContacts{
@@ -457,7 +459,7 @@
     }
  
     .contactsContainer div img{
-        width: 100px;
+        width: 5vw;
         height: auto;
     }
 
